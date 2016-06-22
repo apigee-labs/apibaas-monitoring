@@ -63,8 +63,8 @@ Verify the application is running at :
  
  This README doc needs to have more details and will be updated. 
 
- ** FAQ ***
- - Why is this code not merged with Apache Usergrid code
+**FAQ***
+* Why is this code not merged with Apache Usergrid code ?
  
 Glad you asked. APM depends on few libraries such as Hibernate which are LGPL and Apache strictly prohibits a project or subproject from having a dependency on LGPL code base. While it's not a humungous effort to move to OpenJPA from Hibernate, it's not a trivial work. We slowly hope to get there.
 
